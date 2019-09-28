@@ -1,0 +1,368 @@
+body{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation bar Starts Here */
+
+nav h2{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    color:  orangered;
+}
+nav .navigation{
+    margin-top: 20px;
+}
+.fa-bars{
+    font-size: 1.6em;
+    padding-top: 8px;
+}
+nav a{
+    margin-right: 5px;
+    color: white;
+}
+nav a:hover{
+    color:  orangered;
+    background-color: black;
+    border: orangered 2px solid;
+}
+nav .navbar-brand{
+    padding: 10px ;    
+}
+.navbar-toggler{
+    color: orangered
+}
+/* Navigation bar Ends Here */
+
+
+/* head part starts Here */
+
+header{
+    background: url(../Images/header-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    margin-top: 200px;
+}
+.head{
+    text-align: center;
+    color:white;
+    font-style: italic;
+}
+.head h1{
+    font-size: 5em;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+}
+.head h2{
+    font-size: 2.7em;
+}
+.head button{
+    padding: 10px 65px; 
+    background: orangered;
+    font-size: 1.8em;
+    color: white;
+    border: white 5px solid;
+}
+.head button:hover{
+    background: black;
+    font-size: 1.7em;
+    color:  orangered;
+    border:  orangered 7px solid;
+}
+
+/* head part ends Here */
+
+
+/* services starts Here */
+
+.services-section{
+    background-color:white;
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 40px 20px orangered inset;
+}
+.services-section h1{
+    font-size: 3.5em;
+    text-shadow: 0 0 40px black;
+    margin-bottom: 80px;
+}
+.services-section h1:hover{
+    font-size: 3.5em;
+    color: orangered;
+    text-shadow: 0 0 40px orangered;
+}
+.services-section p{
+    color: grey;
+}
+.fa-circle{
+    color: orangered;
+}
+.span-service{
+    margin: 20px; 
+}
+
+/* services part ends Here */
+
+
+/*portfolio starts Here */
+
+.portfolio-section{
+    background-color:rgb(238, 238, 238);
+    box-shadow: 0 0 40px 20px orangered inset;
+    padding: 120px;
+}
+.portfolio-section h1{
+    text-align: center;
+    text-shadow: 0 0 40px black;
+    font-size: 3.5em;
+}
+.portfolio-section h1:hover{
+    color: orangered;
+    text-shadow: 0 0 40px orangered;
+}
+.portfolio-section img{
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+.portfolio-section .some{
+    background-color: white;
+    border: 3px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+}
+.portfolio-section p{
+    color: gray;
+}
+.portfolio-section img:hover{
+    opacity: 0.6;
+}
+
+/*portfolio ends Here */
+
+
+/*about starts Here */
+
+
+
+.about-section{
+    text-align: center;
+    padding: 150px 0;
+}
+.about-section h1{
+    font-size: 4em;
+}
+.about-section p,h6{
+    color: gray;
+}
+.about-section div{
+    padding: 0;
+    margin: 0;
+}
+.about-right , .about-left{
+    text-align: start;
+    margin: 150px 0 !important;
+}
+.about-section img{
+    display: block;
+    margin: 0 auto;
+    border: 6px solid white;
+    width: 75%;
+    height: auto;
+}
+@media (min-width:768px){
+    .about-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: start;
+    }
+    .about-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: end;
+    }
+    .image-left{
+        order: 1;
+    }
+    .image-right{
+        order: -1;
+    }
+    .about-section img{
+        width: 75%;
+    }
+}
+/*about end Here */
+
+
+/*team starts Here */
+.team-section{
+    background-color:rgb(238, 238, 238);
+    text-align: center;
+    box-shadow: 0 0 40px 20px orangered inset;
+    padding: 80px 0;
+}
+.team-section h1{
+    margin-bottom: 80px;
+    padding: 0;
+    font-size: 3.5em;
+    text-shadow: 0 0 40px black;
+}
+.team-section h1:hover{
+    color: orangered;
+    text-shadow: 0 0 40px orangered;
+}
+.team-section h6{
+    margin-top: 40px;
+}
+
+/*team ends Here */
+
+
+/*parallax starts Here */
+
+.quote{
+    text-align: center;
+}
+.quote:hover{
+    color:orangered;
+}
+.quote h1{
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+/*parallax starts Here */
+
+
+/*map bg starts Here */
+
+.map{
+    background: url(../map-image.jpg);
+    color: white;
+    text-align: center;
+    padding: 120px;
+    box-shadow: 0 0 40px 10px orangered inset;
+}
+.map h1{
+    font-size: 4em;
+    color: orangered;
+    text-shadow: 0 0 40px orangered;
+}
+.map h1:hover{
+    color: white;
+}
+.utd{
+    display: flex;
+    flex-direction: column;
+}
+.utd input{
+    height: 60px;
+    margin: 15px; 
+    border: 5px solid orangered;
+}
+textarea{
+    margin: 15px 0;
+    width: 100%;
+    height: 240px;
+    border: 5px solid orangered;
+}
+.map button{
+    width: 250px;
+    height: 65px;
+    margin-top : 25px; 
+    font-size: 1.8em;
+    background: black;
+    border: 7px solid orangered;
+    color: orangered;
+}
+.map button:hover{
+    background: orangered;
+    border: white 4px solid;
+    color: white;
+}
+
+/*map bg ends Here */
+
+
+/*footer starts Here */
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 50px orangered;
+    box-shadow: 0 0 40px 20px gray inset;
+}
+footer a{
+    color: orangered;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+footer .row{
+    font-size: 1.5em;
+    color: orangered;
+    margin: 40px;
+}
+.gap{
+    margin-top: 25px;
+}
+.footer-head{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+/*footer starts Here */
+
+
+
+/* Media queries Starts Here */
+@media (max-width:768px){
+    .team-section .col-md-4{
+        margin: 30px 0;
+    }
+    .portfolio-section{
+        padding: 120px 150px;
+    }
+}
+@media (max-width:992px){
+    .map{
+        padding: 120px 15px;
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    .map-respo{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:900px) and (min-width:768px){
+    .portfolio-section{
+        padding: 120px 80px;
+    }
+}
+@media (max-width:650px){
+    .portfolio-section{
+        padding: 120px 50px;
+    }
+}
+@media (max-width:992px){
+    .heading{
+        margin-top: 100px;
+    }
+
+}
+@media (max-width:515px){
+    .heading{
+        margin-top: 40px;
+    }
+}
+/* Media queries Ends Here */
